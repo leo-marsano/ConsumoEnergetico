@@ -23,8 +23,8 @@ Sono stati prodotti 4 script:
 
   La **prima parte** si suddivide in:
   - confrontare le potenze per le diverse categorie;
-  - studiare la serie temporale delle diverse categorie e dell'assorbimento totale tramite un'analisi di Fourier (caratterizzare il rumore, verificare  periodicità e correlazioni)
-  - studiare l'integrale della potenza in funzione del tempo per le diverse categorie e per l'assorbimento totale;
+  - studiare la serie temporale delle diverse categorie e dell'assorbimento totale tramite un'analisi di Fourier (caratterizzare il rumore, verificare  periodicità e correlazioni);
+  - studiare l'integrale della potenza in funzione del tempo per le diverse categorie e per l'assorbimento totale.
 * `enSunPanel.py`: script con cui si esegue la **seconda parte** del progetto, utilizzando i dati sperimentati memorizzati nello script precedente.
 
   La **seconda parte** si suddivide in:
@@ -33,7 +33,8 @@ Sono stati prodotti 4 script:
   - effettuare una analisi di Fourier della funzione differenza fra stima teorica e dati sperimentali.
   
 Per eseguire correttamente gli script basterà clonare questa repository per poi eseguire il file `enSunPanel.py`; questo, dato che importa gli altri script, eseguirà anche le altre parti del progetto. In alternativa, se si vuole eseguire soltato la parte di analisi e autoproduzione, basta eseguire il file `enProject.py`. 
-Le esecuzioni produrranno e salveranno grafici che esauriscono la trattazione del progetto. Inoltre saranno visibili nel terminale alcune informazioni aggiuntive per le diverse categorie riguardanti l'analisi di Fourier e le energie totali assorbite (le categorie saranno scitte come: `aSampX` = array campionamenti di *X*; dove *X* può essere: `Panel`=*Fotovoltaico*, `Pwall`=powerwal=*Batteria*, `Home`=*Casa*, `Net`=*Rete*)
+Le esecuzioni produrranno e salveranno grafici che esauriscono la trattazione del progetto. Inoltre saranno visibili nel terminale alcune informazioni aggiuntive per le diverse categorie riguardanti l'analisi di Fourier e le energie totali assorbite 
+(le categorie saranno scitte come: `aSampX` = array campionamenti di *X*; dove *X* può essere: `Panel` = *Fotovoltaico*, `Pwall` = powerwal=*Batteria*, `Home` = *Casa*, `Net` = *Rete*).
 	
 ### **Setup**
 Gli script importano i seguenti pacchetti Python (da installare se non presenti):

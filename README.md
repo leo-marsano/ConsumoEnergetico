@@ -10,7 +10,7 @@
 Il testo del progetto assegnato è consultabile al file `progetto.txt`.
 Il progetto si divide in tre parti:
 * La **prima parte** del progetto ha lo scopo di analizzare il consumo energetico della mia abitazione per 10 giorni. 
-Si sono utilizzate tabelle scaricate tramite una batteria di accumulo che campiona la potenza istantanea assorbita da: *Casa*, *Rete*, *Fotovoltaico*, *Batteria*.
+Si sono utilizzate tabelle relative ad una batteria di accumulo che campiona la potenza istantanea assorbita da: *Casa*, *Rete*, *Fotovoltaico*, *Batteria*.
 I dati sono campionati ogni 5 minuti e nella cartella `december/` sono presenti file *.csv* relativi ai primi 25 giorni di dicembre 2022. Poi, come richiesto, si sono analizzati soltanto quelli relativi a 10 giorni: 16-25/12/2022.
   
 * La **seconda parte** del progetto consiste nello stimare teoricamente la potenza generata dai pannelli per lo stesso arco temporale ed analizzare la differenza con i dati sperimentali. Si sono utilizzate le informazioni riguardanti la posizione del sole il 20/12 per le cordinate della mia abitazione (contenute in *`december/posSun20dec.csv`*) e quelle relative alla superficie, posizione, orientamento, inclinazione ed efficienza dei pannelli per stimare la potenza della radiazione solare trasdotta (approssimando che il sole si sia mosso durante i 10 giorni, in media, come il 20/12).
@@ -31,8 +31,8 @@ Sono stati prodotti 4 script:
 
   La **seconda parte** si suddivide in:
   - stimare la potenza generata per lo stesso periodo di tempo di cui si hanno a disposizione i dati;
-  - confrontare il modello di potenza generata coi dati corrispondenti;
-  - effettuare una analisi di Fourier della funzione differenza fra stima teorica e dati sperimentali.
+  - confrontare il modello di potenza generata con i dati corrispondenti;
+  - effettuare un' analisi di Fourier della funzione differenza fra stima teorica e dati sperimentali.
   
 Per eseguire correttamente gli script basterà clonare questa repository per poi eseguire il file `enSunPanel.py`; questo, dato che importa gli altri script, eseguirà anche le altre parti del progetto. In alternativa, se si vuole eseguire soltato la parte di analisi e autoproduzione, basta eseguire il file `enProject.py`. 
 Le esecuzioni produrranno e salveranno grafici che esauriscono la trattazione del progetto. Inoltre saranno visibili nel terminale alcune informazioni aggiuntive per le diverse categorie riguardanti l'analisi di Fourier e le energie totali assorbite 

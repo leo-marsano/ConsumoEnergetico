@@ -1,10 +1,11 @@
 # Esame Metodi Computazionali per la Fisica di Leonardo Marsano
+## Consumo energetico
 
 * [Info generali](#info-generali)
 * [Descrizione script e istruzioni di esecuzione](#descrizione-script-e-istruzioni-di-esecuzione)
 * [Setup](#setup)
 
-## **Info generali**
+### **Info generali**
 Il progetto si divide in tre parti:
 * La **prima parte** del progetto ha lo scopo di analizzare il consumo energetico della mia abitazione per 10 giorni. 
 Si sono utilizzate tabelle scaricate tramite una batteria di accumulo che campiona la potenza istantanea assorbita da: *Casa*, *Rete*, *Fotovoltaico*, *Batteria*.
@@ -14,7 +15,7 @@ I dati sono campionati ogni 5 minuti e nella cartella `december/` sono presenti 
 
 * La **terza parte** *(opzionale)* consiste nel trovare la percentuale di autoproduzione dell'energia utilizzata dalla casa rispetto all'utilizzo totale per l'arco temporale considerato.
 
-## **Descrizione script e istruzioni di esecuzione**
+### **Descrizione script e istruzioni di esecuzione**
 Sono stati prodotti 4 script:
 * `enModule.py`: per la definizione di due classi con funzioni utili per leggere e memorizzare in oggetti i dati campionati presenti nei csv. E' importato negli altri 3 script.
 * `enFunctions.py`: per la definizione di funzioni utili per ottimizzare il codice per la parte di analisi. E' importato nei prossimi 2 script.
@@ -34,7 +35,7 @@ Sono stati prodotti 4 script:
 Per eseguire correttamente gli script basterà clonare questa repository per poi eseguire il file `enSunPanel.py`; questo, dato che importa gli altri script, eseguirà anche le altre parti del progetto. In alternativa, se si vuole eseguire soltato la parte di analisi e autoproduzione, basta eseguire il file `enProject.py`. 
 Le esecuzioni produrranno e salveranno grafici che esauriscono la trattazione del progetto. Inoltre verranno printati nel terminale alcune informazioni aggiuntive per le diverse categorie riguardanti l'analisi di Fourier e le energie totali assorbite.
 	
-## **Setup**
+### **Setup**
 Gli script importano i seguenti pacchetti python (da installare se non presenti):
 ```
 numpy

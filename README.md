@@ -6,6 +6,7 @@
 * [Setup](#setup)
 
 ### **Info generali**
+Il testo del progetto assegnato è consultabile al file `progetto.txt`.
 Il progetto si divide in tre parti:
 * La **prima parte** del progetto ha lo scopo di analizzare il consumo energetico della mia abitazione per 10 giorni. 
 Si sono utilizzate tabelle scaricate tramite una batteria di accumulo che campiona la potenza istantanea assorbita da: *Casa*, *Rete*, *Fotovoltaico*, *Batteria*.

@@ -1,0 +1,10 @@
+CONSUMO ENERGETICO
+Assumendo che sia possibile accumulare dati sul consumo energetico per alcuni giorni consecutivi (5-10), il progetto si compone di due parti (più eventuali approfondimenti opzionali):
+1) Analisi Dati:
+	- confrontare le potenze per le diverse categorie;studiare la serie temporale delle diverse categorie e dell'assorbimento totale tramite un'analisi diFourier;
+	- caratterizzare il rumore, verificare eventuali periodicità e correlazioni ...studiare l'integrale della potenza in funzione del tempo per le diverse categorie e per l'assorbimentototale;
+2) Stima Teorica:
+	- sulla base delle caratteristiche e dell'orientamento dell'impianto fotovoltaico, stimare la potenzagenerata per lo stesso periodo di tempo di cui si hanno a disposizione i dati;
+	- confrontare il modello di potenza generata coi dati corrispondenti;effettuare una analisi di Fourier della differenza fra stima teorica e dati.
+3) Opzionale:
+	Qualsiasi altro approfondimento suggerito dai dati o dai risultati ottenuti --> percentuale di autoproduzione dell'energia consumata.

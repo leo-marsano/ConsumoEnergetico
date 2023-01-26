@@ -4,6 +4,7 @@
 * [Info generali](#info-generali)
 * [Descrizione script e istruzioni di esecuzione](#descrizione-script-e-istruzioni-di-esecuzione)
 * [Setup](#setup)
+* [Fonti](#fonti)
 
 ### **Info generali**
 Il testo del progetto assegnato è consultabile al file `progetto.txt`.
@@ -47,3 +48,9 @@ matplotlib
 varname
 ```
 Inoltre è necessario installare il pacchetto **`pure_eval`**, anche se non importato esplicitamente in nessuno script, onde evitare *`Warning`* in fase di esecuzione di funzioni del pacchetto **`varname`**.
+
+### **Fonti**
+* [per posizione del sole durante il 20/12/2022](https://www.sunearthtools.com/dp/tools/pos_sun.php?lang=it)
+* [per calcolo proiezione radiazione solare rispetto ai pannelli](https://architettura.unige.it/did/did1011/l2architettura5/quarto1011/imptec/matdid/cap10.pdf)
+* [per potenza solare incidente con le varie condizioni metereologiche](http://www.consulente-energia.com/ar-qual-e-la-potenza-o-irradianza-solare-in-kw-mq-la-densita-della-radiazione-solare-sulla-terra-per-metro-quadro-di-superfice-orizzontale-esposta.html)
+

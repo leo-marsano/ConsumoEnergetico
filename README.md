@@ -36,7 +36,7 @@ Per eseguire correttamente gli script basterà clonare questa repository per poi
 Le esecuzioni produrranno e salveranno grafici che esauriscono la trattazione del progetto. Inoltre verranno printati nel terminale alcune informazioni aggiuntive per le diverse categorie riguardanti l'analisi di Fourier e le energie totali assorbite.
 	
 ### **Setup**
-Gli script importano i seguenti pacchetti python (da installare se non presenti):
+Gli script importano i seguenti pacchetti Python (da installare se non presenti):
 ```
 numpy
 scipy

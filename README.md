@@ -11,9 +11,9 @@ Il progetto si divide in tre parti:
 Si sono utilizzate tabelle scaricate tramite una batteria di accumulo che campiona la potenza istantanea assorbita da: *Casa*, *Rete*, *Fotovoltaico*, *Batteria*.
 I dati sono campionati ogni 5 minuti e nella cartella `december/` sono presenti file *.csv* relativi ai primi 25 giorni di dicembre 2022. Poi, come richiesto, si sono analizzati soltanto quelli relativi a 10 giorni: 16-25/12/2022.
   
-* La **seconda parte** del progetto consiste nello stimare teoricamente la potenza generata dai pannelli per lo stesso arco temporale ed analizzare la differenza con i dati sperimentali. Si sono utilizzate le informazioni riguardanti la posizione del sole il 20/12 per le cordinate della mia abitazione (contenute in *`december/posSun20dec.csv`*) e quelle relative alla superficie, posizione, orientamento, inclinazione ed efficienza dei pannelli per stimare la potenza della radiazione solare trasdotta dai pannelli (approssimando che il sole si sia mosso durante i 10 giorni, in media, come il 20/12).
+* La **seconda parte** del progetto consiste nello stimare teoricamente la potenza generata dai pannelli per lo stesso arco temporale ed analizzare la differenza con i dati sperimentali. Si sono utilizzate le informazioni riguardanti la posizione del sole il 20/12 per le cordinate della mia abitazione (contenute in *`december/posSun20dec.csv`*) e quelle relative alla superficie, posizione, orientamento, inclinazione ed efficienza dei pannelli per stimare la potenza della radiazione solare trasdotta (approssimando che il sole si sia mosso durante i 10 giorni, in media, come il 20/12).
 
-* La **terza parte** *(opzionale)* consiste nel trovare la percentuale di autoproduzione dell'energia utilizzata dalla casa rispetto all'utilizzo totale per l'arco temporale considerato.
+* La **terza parte** *(opzionale)* consiste nel trovare la percentuale di autoproduzione dell'energia utilizzata dalla casa (Pannelli + Powerwall) per l'arco temporale considerato.
 
 ### **Descrizione script e istruzioni di esecuzione**
 Sono stati prodotti 4 script:
@@ -33,7 +33,7 @@ Sono stati prodotti 4 script:
   - effettuare una analisi di Fourier della funzione differenza fra stima teorica e dati sperimentali.
   
 Per eseguire correttamente gli script basterà clonare questa repository per poi eseguire il file `enSunPanel.py`; questo, dato che importa gli altri script, eseguirà anche le altre parti del progetto. In alternativa, se si vuole eseguire soltato la parte di analisi e autoproduzione, basta eseguire il file `enProject.py`. 
-Le esecuzioni produrranno e salveranno grafici che esauriscono la trattazione del progetto. Inoltre verranno printati nel terminale alcune informazioni aggiuntive per le diverse categorie riguardanti l'analisi di Fourier e le energie totali assorbite.
+Le esecuzioni produrranno e salveranno grafici che esauriscono la trattazione del progetto. Inoltre saranno visibili nel terminale alcune informazioni aggiuntive per le diverse categorie riguardanti l'analisi di Fourier e le energie totali assorbite (le categorie saranno scitte come: `aSampX` = array campionamenti di *X*; dove *X* può essere: `Panel`=*Fotovoltaico*, `Pwall`=powerwal=*Batteria*, `Home`=*Casa*, `Net`=*Rete*)
 	
 ### **Setup**
 Gli script importano i seguenti pacchetti Python (da installare se non presenti):

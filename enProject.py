@@ -241,7 +241,7 @@ if True:
     freq7 = np.zeros((4,7), dtype=float) 
     freq7[0,:], freq7[1,:], freq7[2,:], freq7[3,:] = miPanelFreq, miPwallFreq, miHomeFreq, miNetFreq
     freq7 = np.round(1e5*freq7, decimals=3)
-    columns = ('1°freq $(1e5\cdot Hz)$','2°freq $(1e5\cdot Hz)$','3°freq $(1e5\cdot Hz)$','4°freq $(1e5\cdot Hz)$','5°freq $(1e5\cdot Hz)$','6°freq $(1e5\cdot Hz)$','7°freq $(1e5\cdot Hz)$')
+    columns = ('1°freq $(1e-5\cdot Hz)$','2°freq $(1e-5\cdot Hz)$','3°freq $(1e-5\cdot Hz)$','4°freq $(1e-5\cdot Hz)$','5°freq $(1e-5\cdot Hz)$','6°freq $(1e-5\cdot Hz)$','7°freq $(1e-5\cdot Hz)$')
     rows = ('Panelels', 'Powerwall', 'Home', 'Net')
     colors = ('gold', 'limegreen', 'tomato', 'cornflowerblue')
     ax[2].axis('tight')

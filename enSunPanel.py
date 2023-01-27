@@ -123,6 +123,6 @@ if True:
     plt.yticks(np.arange(min(diff4),max(diff4),1))
     #diff function integer
     iDiff = (round(integrate.simpson(diff4, time10), 2))/60 # divided by 60 cause i want the energy in kWh, not kWmin
-    plt.text(0, 1, f'7 most important freq = {np.round(miDiffPanFreq,6)} Hz\n difference\'s integral = {iDiff} kWh') 
+    plt.text(0, 1, f'7 most important freq = {np.round(miDiffPanFreq,7)} Hz\n difference\'s integral = {iDiff} kWh') 
     plt.savefig('filtredDiff.png')
     plt.show()
